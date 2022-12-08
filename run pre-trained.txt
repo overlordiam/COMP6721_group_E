@@ -1,0 +1,7 @@
+//How to run the pre-trained model//
+
+1) first, the sample dataset of 100 images shoud be loaded to the drive.
+2) Initializing this sample dataset by providing the path.
+3) We convert the dataset into image loader.
+3) Using the torch.load function, the model is loaded into the notebook.
+4) Using the evalution function we then test the accuracy of the test dataset.

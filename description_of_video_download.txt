@@ -1,0 +1,5 @@
+//Description on how to obtain the dataset from available dataset//
+
+1)we have uploaded the video presentation on Google drive.
+2)First is to Click the link that is provided in the readme file, it will be redirected to the video.
+3)after selecting the video, right-click and then select on download option. It will get downloaded in the local device.
