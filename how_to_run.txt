@@ -1,0 +1,13 @@
+//Guidelines for Model Training//
+
+    - To initiate the model training process, gather the essential prerequisites: datasets and a suitable notebook like Google Colab or Kaggle.
+    - Both Google Colab and Kaggle platforms were utilized for model training, demonstrating versatility and adaptability in different environments.
+    - In the case of Google Colab, the initial step involves mounting the drive within the notebook to access the necessary datasets.
+    - Drive mounting is crucial to access datasets located in our drive and initialize the connection for dataset utilization.
+    - It's essential to import all the required modules to set the groundwork for the subsequent steps.
+    - Loading and preprocessing the data are pivotal stages. Through image preprocess functions, data loaders are established, encompassing train_loader, val_loader, and test_loader.
+    - Visualizing data loaders aids in understanding the dataset and its characteristics.
+    - Transitioning to the Training function, the process is kicked off. Here, different models such as ResNet, VGG16, and Densenet come into play. For instance, when training ResNet, this specific model is chosen, and the function encompasses model definition and initialization.
+    - Each chosen model is given the required attention in this process, which includes defining and initializing the model.
+    - Upon completing training, the resulting weights, as well as the values from both training and validation, are stored.
+    - Concluding the process, the accuracy of the trained model is computed and evaluated.

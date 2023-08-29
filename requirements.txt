@@ -1,8 +1,2 @@
-Requirements to run the python code:
---The Initial requirement is to have a dataset either locall or on the Drive.
---The Next requirement is to have a google colab or any Noebook which allows to trigger the model to train.
---once these requirements are meant, it is required to import all the necessary modules which includes 
-  ->Pytorch - it is the base in which each and every function is defined to train the model, 
-  ->matplotlib- it is necessary for the construction of graphs, providing for a better understanding of the comparisons for train and test validations, or with number of epochs or accuracy.
-  ->time - time module was included to get a better comprehension of how much a model is taking time to complete for a give number of epochs and also for every single epochs also for a
-           finer correlation between different models.
+torch==1.9.0
+matplotlib==3.4.3

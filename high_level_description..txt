@@ -1,10 +1,15 @@
-//High Level Description of the project.//
+//Project Overview at a Glance//
 
---> Our Domain of the project is in the Medidcal field, that is the Gastrointestinal Tract.
---> We have used three Datasets containing three different types of classes. One dataset consists of 4 classes, other with 8 classes and the last one with 23 classes.
---> Our Aim is to pass these datasets into 3 different models and to have a detailed illustrations regarding the accuracies of different models.
---> we have trained in total of 9 base models, all three datasets with all three models. Our models are ResNet, Vgg16 and Densenet.
---> we have also trained two models on transfer learning.
---> we used learning rate on ResNet and batch size on Densenet. This Hyperparameter tuning was done on the 8 class dataset.
---> Further we compared all the accuracies of the given models.
-  
+--> Our project operates within the medical realm, focusing on the intricate domain of the Gastrointestinal Tract.
+
+--> Utilizing three distinct datasets, each encompassing varying class types, our project delves into diversity. These datasets comprise 4, 8, and 23 classes, respectively.
+
+--> Our central objective revolves around the meticulous analysis of dataset performances across three diverse models.
+
+--> Across the project's trajectory, a total of nine base models underwent training. This entailed comprehensive exploration of all three datasets using ResNet, Vgg16, and Densenet models.
+
+--> In addition to the base models, two transfer learning models were also employed to enrich our approach.
+
+--> Hyperparameter fine-tuning was meticulously executed. We employed learning rate adjustment for ResNet and optimized batch sizes for Densenet. This strategic tuning transpired within the context of the 8-class dataset.
+
+--> A pivotal step included a comparative assessment of accuracy outcomes from all the models, culminating in a comprehensive insights-driven analysis.
